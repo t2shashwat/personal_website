@@ -1,87 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Ubuntu&display=swap');
 
 
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.topName{
-    position: relative;
-    left: 92px;
-    top:10px;
-    font-size: 60px;
+.heading{
+    font-family: 'Lato', sans-serif;
+    font-size: 3vw;
 }
 
-.navBar{
-    position: relative;
-    top: -40px;
+.eid{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1vw;
 }
-a{
-    color:blue;
+.nameClass{
+    padding: 0vw 0vw 0vw 0.8vw;
 }
-
-.container1{
-    font-family: 'IBM Plex Sans', sans-serif;
-    margin: 24px;
-    padding: 4px 8px;
+.fake{
+    color:white;
 }
-
-.container1 ul {
-    display: flex;
-}
-
-.container1 ul li{
-    list-style: none;
-    margin: 16px 24px;
-}
-
-.pic{
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    left: 188px;
-    width: 180px;
-}
-.backImage{
-    width: 50vw;
-    padding: 13px 464px;
-}
-.container2{
-    margin: 4px;
-    padding: 32px 68px;
-}
-
-hr{
-    margin: 14px 72px;
-    color: lightgrey;
-}
-
-h2{
-    font-family: 'IBM Plex Sans', sans-serif;
-    margin: 28px 68px;
-}
-.grid-container{
-    display: inline-grid;
-    grid-template-columns: 128px auto;
-    margin: 0px 32px;
-    padding: 0px 80px;
-    grid-gap:16px;
-}
-.teaching{
-    margin: 0px 44px;
-    padding: 0px 80px;
-}
-
-.grid-container2{
-    display: inline-grid;
-    grid-template-columns: 228px auto;
-    margin: 0px 32px;
-    padding: 0px 80px;
-    grid-gap:16px;
-    padding-bottom: 28px;
-}
-
 
 footer{
     color:white;
