@@ -22,6 +22,23 @@
 .fake{
     color:white;
 }
+.conference-title {
+    font-weight: bold;
+}
+.paper-title {
+    font-weight: bold;
+    display: block; /* Ensures the title is on a new line */
+    margin-bottom: 5px; /* Space between the title and the author names */
+}
+.authors {
+    display: block; /* Ensures authors are on a new line */
+    margin-bottom: 5px; /* Space before the PDF link */
+}
+.pdf-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
 
 footer{
     color:white;
