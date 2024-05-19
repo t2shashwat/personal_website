@@ -39,7 +39,9 @@
     font-weight: bold;
     color: blue;
 }
-
+.bolder {
+    font-weight: 800;  /* Increasing font-weight to make it bolder than normal bold */
+}
 footer{
     color:white;
     background-color: black;
