@@ -28,7 +28,7 @@
 .paper-title {
     font-weight: bold;
     display: block; /* Ensures the title is on a new line */
-    margin-bottom: 5px; /* Space between the title and the author names */
+    margin-bottom: 2px; /* Space between the title and the author names */
 }
 .authors {
     display: block; /* Ensures authors are on a new line */
